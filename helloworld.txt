@@ -1,1 +1,238 @@
 test file for cml commit.
+    1  git remote -v
+    2  git branch -a
+    3  git pull origin master
+    4  pwd
+    5  cd /e
+    6  cd app/ghub/
+    7  pwd
+    8  ls -al
+    9  cd helloWolrd/
+   10  ls -trl
+   11  vi helloworld.txt
+   12  git status
+   13  ll
+   14  git add
+   15  git status
+   16  git add helloworld.txt 
+   17  git status
+   18  git commit -m "[NEW] file add with CML"
+   19  git status
+   20  git username
+   21  git --help
+   22  git config --golbal --list
+   23  git config --global --list
+   24  git log
+   25  git --logout
+   26  su - 
+   27  use change
+   28  chage user
+   29  git userchange
+   30  git log
+   31  git log | grep commit
+   32  git log | grep commit | awk '{print $1}'
+   33  git log | grep commit | awk '{print $2}'
+   34  git log | grep commit | awk '{print $2}' >> helloworld.txt 
+   35  vi helloworld.txt 
+   36  git status
+   37  git config --global user.name="lawyerjj"
+   38  git config --globak user.name "laywerjj"
+   39  git config --global user.email "lawyerjj@gmail.com"
+   40  git status
+   41  git config --global user.name "lawyerjj"
+   42  git commit "[MOD] helloworld.txt"
+   43  git commit -m "[MOD] helloworld.txt"
+   44  git status
+   45  git commit -m -a "[MOD] helloworld.txt"
+   46  git commit -m -a "[MOD] helloworld.txt" helloworld.txt 
+   47  ll
+   48  ls -al
+   49  rm -rf .git/
+   50  ll
+   51  git init
+   52  git status
+   53  git commit -m "NEW> helloworld.txt"
+   54  git add helloworld.txt 
+   55  git status
+   56  git commit -m "new> helloworld.txt"
+   57  git status
+   58  git log
+   59  git commit --amend
+   60  git commit --amend
+   61  git log
+   62  vi helloworld.txt 
+   63  git stauts
+   64  git status
+   65  git add helloworld.txt 
+   66  git status
+   67  git commit -m "mod> helloworld.txt"
+   68  git status
+   69  git log
+   70  cd .git/
+   71  ls -al
+   72  vi description 
+   73  cat HEAD 
+   74  cd logs/
+   75  ls -al
+   76  cat HEAD 
+   77  vi HEAD 
+   78  cd ../../
+   79  ls 
+   80  pwd
+   81  pwd
+   82  cd ../
+   83  ls 
+   84  mkdir helloworld
+   85  ls
+   86  cd helloWo
+   87  cd helloworld/
+   88  ls 
+   89  ls -al
+   90  git clone https://github.com/lawyerjj/helloworld.git
+   91  ls -al
+   92  mv helloworld/ ../
+   93  cd ../
+   94  ls -tlr
+   95  rm helloworld/
+   96  rm -rf helloworld/
+   97  ls -tlr
+   98  rm -rf helloWolrd/
+   99  ls -tlr
+  100  git clone https://github.com/lawyerjj/helloworld.git
+  101  ll
+  102  cd helloworld/
+  103  ls -tlr
+  104  ls -al
+  105  ll
+  106  ls -al
+  107  vi helloworld.txt
+  108  ls -tlr
+  109  git status
+  110  git add .
+  111  git status
+  112  git commit -m "[MODIFIED] Adding file with cml"
+  113  git status
+  114  git lgo
+  115  git log
+  116  echo $LANG
+  117  ps -ef | grep LANG
+  118  LANG
+  119  $LANG
+  120  echo $LANG
+  121  git log
+  122  !
+  123  ls -tl
+  124  vi README.md 
+  125  git log --online
+  126  git log --oneline
+  127  ll
+  128  vi helloworld.txt 
+  129  show history
+  130  history
+  131  git remote --verbose
+  132  git branrch -a
+  133  git branch -a
+  134  git branch -l
+  135  git branch --help
+  136  cat history
+  137  echo history
+  138  echo $history
+  139  history >> helloworld.txt 
+  140  vi helloworld.txt 
+  141  vi helloworld.txt 
+  142  git branch -l
+  143  git branch -l   51  git init
+  144     52  git status
+  145     53  git commit -m "NEW> helloworld.txt"
+  146     54  git add helloworld.txt 
+  147     55  git status
+  148     56  git commit -m "new> helloworld.txt"
+  149     57  git status
+  150     58  git log
+  151     59  git commit --amend
+  152     60  git commit --amend
+  153     61  git log
+  154     62  vi helloworld.txt 
+  155     63  git stauts
+  156     64  git status
+  157     65  git add helloworld.txt 
+  158     66  git status
+  159     67  git commit -m "mod> helloworld.txt"
+  160     68  git status
+  161     69  git log
+  162     70  cd .git/
+  163     71  ls -al
+  164     72  vi description 
+  165     73  cat HEAD 
+  166     74  cd logs/
+  167     75  ls -al
+  168     76  cat HEAD 
+  169     77  vi HEAD 
+  170     78  cd ../../
+  171     79  ls 
+  172     80  pwd
+  173     81  pwd
+  174     82  cd ../
+  175     83  ls 
+  176     84  mkdir helloworld
+  177     85  ls
+  178     86  cd helloWo
+  179     87  cd helloworld/
+  180     88  ls 
+  181     89  ls -al
+  182     90  git clone https://github.com/lawyerjj/helloworld.git
+  183     91  ls -al
+  184     92  mv helloworld/ ../
+  185     93  cd ../
+  186     94  ls -tlr
+  187     95  rm helloworld/
+  188     96  rm -rf helloworld/
+  189     97  ls -tlr
+  190     98  rm -rf helloWolrd/
+  191     99  ls -tlr
+  192    100  git clone https://github.com/lawyerjj/helloworld.git
+  193    101  ll
+  194    102  cd helloworld/
+  195    103  ls -tlr
+  196    104  ls -al
+  197    105  ll
+  198    106  ls -al
+  199    107  vi helloworld.txt
+  200    108  ls -tlr
+  201    109  git status
+  202    110  git add .
+  203    111  git status
+  204    112  git commit -m "[MODIFIED] Adding file with cml"
+  205    113  git status
+  206    114  git lgo
+  207    115  git log
+  208    116  echo $LANG
+  209    117  ps -ef | grep LANG
+  210    118  LANG
+  211    119  $LANG
+  212    120  echo $LANG
+  213    121  git log
+  214    122  !
+  215    123  ls -tl
+  216    124  vi README.md 
+  217    125  git log --online
+  218    126  git log --oneline
+  219    127  ll
+  220    128  vi helloworld.txt 
+  221    129  show history
+  222    130  history
+  223    131  git remote --verbose
+  224    132  git branrch -a
+  225    133  git branch -a
+  226    134  git branch -l
+  227    135  git branch --help
+  228    136  cat history
+  229    137  echo history
+  230    138  echo $history
+  231    139  history >> helloworld.txt 
+  232  a:Q!
+  233  ls -tlr
+  234  git branch -a
+  235  git checkout -b b1
+  236  vi helloworld.txt 
+  237  history >> helloworld.txt 
